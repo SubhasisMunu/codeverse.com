@@ -1,0 +1,25 @@
+body {
+  background-image: url("library\ books\ bgi.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  text-transform: capitalize;
+  color: whitesmoke;
+  border: 1px solid white;
+  background-color: brown;
+}
+
+footer {
+  margin: 0;
+  background-color: #fafafa;
+  width: 100%;
+  color: rgb(150 161 192);
+  text-align: center;
+  padding: 20px;
+  position:fixed;
+  bottom: 0px;
+}

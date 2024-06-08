@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Subhais sahoo" />
+  <title>E-library | Home</title>
+  <link rel="shotcut icon" href="icons8-book.gif" />
+  <link rel="stylesheet" href="all-style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navigation-bar">
+      <a href="" style="color: aliceblue;"><i class="fa fa-fw fa-user"></i></a>
+      <a class="under" href="logout.php">logout</a>
+      <a>|</a>
+      <a class="under" href="help.html">Help</a>
+    </nav>
+
+    <nav id="nav-menu">
+      <h1>CodeVerse</h1>
+      <div id="menu-icon">&#9776;</div>
+      <ul>
+        <li><a href="home page.html" class="activee">Home</a></li>
+        <li><a href="books.html">Ebooks</a></li>
+        <li><a href="notes.html">Notes</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="questions.html">Questions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <script>
+      document.getElementById('menu-icon').addEventListener('click', function () {
+        document.querySelector('ul').classList.toggle('show');
+      });
+    </script>
+
+    <div class="slideshow-container">
+      <marquee behavior="scroll" direction="ltr">
+        <p class="hed1">Lots of e-books . 100% Free</p>
+        <p class="hed1">Welcome to your friendly neighbourhood E-library</p>
+      </marquee>
+
+      <div class="mySlides fade">
+        <img class="slideimg" src="\images\background-images\g.jpg" />
+      </div>
+
+      <div class="mySlides fade">
+        <img class="slideimg"
+          src="\images\background-images\luxury-reading-material-illuminates-old-fashioned-elegance-indoors-generated-by-aicp.jpg" />
+      </div>
+
+      <div class="mySlides fade">
+        <img class="slideimg" src="\images\background-images\library books bgi.jpg" />
+      </div>
+
+      <div class="mySlides fade">
+        <img class="slideimg" src="\images\background-images\girl-sitting-table-with-notebooks.jpg" />
+      </div>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </header>
+
+  <section class="home-page-section">
+    <div class="topic">
+      <a class="home-anchor" href="books.html">
+        <img src="\images\background-images\6920933.jpg" class="homepage-image-nav" alt="free books"
+          title="Click here to access free books" height="250px" width="245px" />
+        <div class="desc">Click here to access free Ebooks</div>
+      </a>
+    </div>
+  
+    <div class="topic">
+      <a class="home-anchor" href="notes.html">
+        <img src="\images\background-images\notes.jpg" class="homepage-image-nav" alt="free hand written notes"
+          title="click here to access free hand written notes" height="250px" width="245px" />
+        <div class="desc">Click here to access hand written notes</div>
+      </a>
+    </div>
+  
+    <div class="topic">
+      <a class="home-anchor" href="videos.html">
+        <img src="\images\background-images\5356687.jpg" class="homepage-image-nav" alt="free books"
+          title="click here to access video classes" height="250px" width="245px" />
+        <div class="desc">Click here to access video classes</div>
+      </a>
+    </div>
+  
+    <div class="topic">
+      <a class="home-anchor" href="questions.html">
+        <img src="\images\background-images\5219070.jpg" class="homepage-image-nav" alt="free questions"
+          title="click here to access previous year questions" height="250px" width="245px" />
+        <div class="desc">Click here to access previous year</div>
+      </a>
+    </div>
+  
+    <div class="topic">
+      <a class="home-anchor" href="my help.html">
+        <img src="\images\background-images\13038.jpg" class="homepage-image-nav" alt="online source" title="" height="250px"
+          width="245px" />
+        <div class="desc">Free Online resources</div>
+      </a>
+    </div>
+  </section>
+  <hr />
+
+  <!-- <hr /> -->
+  <footer>
+    <p>&copy; 2023 CodeVerse E-library</p>
+    <p>Contact: codeverse9040@gmail.com</p>
+  </footer>
+  <script src="home-script.js"></script>
+</body>
+
+</html>

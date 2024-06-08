@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact : E-library</title>
+  <link rel="shotcut icon" href="icons8-book.gif" />
+  <link rel="stylesheet" href="all-style.css" />
+</head>
+
+<body>
+  <header>
+    <nav id="nav-menu">
+      <h1>CodeVerse</h1>
+      <div id="menu-icon">&#9776;</div>
+      <ul>
+        <li><a href="home page.html">Home</a></li>
+        <li><a href="books.html">Ebooks</a></li>
+        <li><a href="notes.html">Notes</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="questions.html">Questions</a></li>
+        <li><a href="contact.html" class="activee">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <script>
+      document.getElementById('menu-icon').addEventListener('click', function () {
+        document.querySelector('ul').classList.toggle('show');
+      });
+    </script>
+    <hr />
+  </header>
+
+  <section class="contact-section">
+    <div>
+      <div class="contact-details">
+        <h2>Contact Us</h2>
+        <p>
+          <strong>Address :</strong>Udayanath Autonomous College of
+          Science and Technology.
+        </p>
+        <p>Cuttack ,Odisha ,India ,754011</p>
+        <p><strong>Email : codeverse9040@gmail.com</strong></p>
+        <p><strong>Phone:</strong> +91 --</p>
+      </div>
+    </div>
+    <div class="contact-media">
+      <b id="b001"><big>Social media:</big></b>
+
+      <div id="tbl2">
+        <a href="mailto:codeverse9040@gmail.com" target="_main"><img class="contact-image" src="gmail.png"
+            title="gmail" /></a>
+        <a href="" target="_main"><img class="contact-image" src="facebook.png" title="facebook" /></a>
+        <a href="" target="_main"><img class="contact-image" src="twitter.png" title="twitter" /></a>
+        <a href=""><img class="contact-image" src="teligram.png" target="_main" title="telegram" /></a>
+      </div>
+
+    </div>
+  </section>
+  <!-- <hr /> -->
+  <footer>
+    <p>&copy; 2023 CodeVerse E-library</p>
+    <p>Contact: codeverse9040@gmail.com</p>
+  </footer>
+</body>
+
+</html>

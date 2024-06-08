@@ -1,0 +1,558 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* all page's navigation style starts from here */
+.navigation-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+    background-color: #1e1e3f;
+    color: aliceblue;
+}
+
+.under {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: aliceblue;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#nav-menu {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav h1 {
+    color: #25265e;
+    margin: 0;
+}
+
+#menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #25265e;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: #25265e;
+    font-weight: 500;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+li a:hover {
+    color: #6501e5;
+}
+
+.activee {
+    color: crimson;
+}
+
+h1 {
+    margin: 0%;
+    padding: 20px 0px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* about page styles starts from here */
+
+.about-section {
+    background-color: aliceblue;
+    font-size: 18px;
+    text-align: justify;
+    text-align: center;
+    color: #25265e;
+    height: 100vh;
+    width: 90vw;
+    margin: 2px auto;
+    padding: 40px;
+}
+
+/* ebooks page styles starts from here */
+.book-main-section {
+    width: 80vw;
+    background-color: aliceblue;
+    margin: 5px auto;
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 70px 50px;
+}
+
+.book-image {
+    border: 5px solid white;
+    outline: 3px solid black;
+}
+
+.book-container {
+    padding: 10px 10px;
+    display: inline-block;
+    font-size: 10px;
+    height: 220px;
+    width: 170px;
+}
+
+.book-image:hover {
+    border: 1px solid white;
+}
+
+/* contact page styles starts from here */
+.contact-section {
+    width: 90vw;
+    height: 100vh;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 2px auto;
+}
+
+.contact-details {
+    text-align: center;
+    font-size: 18px;
+}
+
+.contact-media {
+    height: 150px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contact-image {
+    height: 25px;
+    width: 25px;
+    padding: 3px;
+}
+
+.contact-image:hover {
+    border-radius: 100%;
+    background-color: rgb(150 161 192);
+}
+
+/* home page style starts from here */
+.mySlides {
+    display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    background-color: aliceblue;
+    width: 95vw;
+    position: relative;
+    margin: 0 auto;
+}
+
+.slideimg {
+    height: 250px;
+    width: 95vw;
+    filter: blur(1px);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.hed1 {
+    margin: 0;
+    padding: 30px 0 0 0;
+    color: darkslategray;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 550;
+    text-shadow: 2px 2px 5px grey;
+}
+
+.topic {
+    height: 250px;
+    width: 245px;
+    background-color: #6501e5;
+    background-color: #444;
+    color: #111;
+    display: inline-block;
+    text-align: center;
+}
+
+.homepage-image-nav {
+    border: 1px solid black;
+}
+
+.home-page-section {
+    width: 80vw;
+    margin: 5px auto;
+    padding: 70px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 70px 50px;
+}
+
+.desc {
+    font-family: sans-serif;
+    color: #25265e;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.home-anchor {
+    text-decoration: none;
+}
+
+.homepage-image-nav:hover {
+    border: 2px solid blueviolet;
+    height: 250px;
+    width: 245px;
+}
+
+.topic:hover {
+    color: #444;
+    text-decoration: underline;
+}
+
+/* notes page style starts from here */
+.notes-main-section {
+    width: 90vw;
+    padding: 30px;
+    margin: 5px auto;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 70px;
+}
+
+.notes-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 10px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 15px 50px 15px 50px;
+    font-size: 15px;
+    height: 250px;
+    width: 200px;
+}
+
+.notes-image {
+    padding: 0px 0px 0px 50px;
+}
+
+.notes-anchor {
+    color: #25265e;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.notes-name {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.download-buttons {
+    display: block;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 8px 1px;
+    background-color: #8932d5;
+    font-size: 14px;
+    color: #fafafa;
+    font-family: sans-serif;
+}
+
+.download-buttons:hover {
+    background-color: #5900a8;
+    font-weight: 600;
+}
+
+.notes-container:hover {
+    border: 1px solid #5900a8;
+    background-color: azure;
+}
+
+/* video page style starts from here*/
+.video-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.video {
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: 350px;
+    transition: transform 0.3s ease-in-out;
+}
+
+iframe {
+    width: 100%;
+    height: 180px;
+}
+
+.video:hover {
+    transform: scale(1.05);
+}
+
+
+.video-details {
+    padding: 20px;
+}
+
+.video p {
+    color: #555;
+    margin: 5px 0;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rating {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.stars {
+    font-size: 18px;
+    color: #f39c12;
+}
+
+.reviews {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #777;
+}
+
+.watch-now {
+    background-color: #3498db;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.watch-now:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    margin: 0;
+    background-color: #1e1e3f;
+    /* width: 100%; */
+    color: rgb(150 161 192);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0px;
+}
+
+@media only screen and (max-width: 560px) {
+    body {
+        background-color: #f1f1f1;
+    }
+
+
+    /* navigation bar responsive part */
+    #menu-icon {
+        display: block;
+    }
+
+    ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.9);
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 1;
+    }
+
+    ul.show {
+        display: flex;
+    }
+
+    li {
+        gap: 10px;
+        text-align: center;
+    }
+
+    li a:hover {
+        background-color: #25265e;
+        color: #6501e5;
+    }
+
+    /* about section responsive */
+    .about-section {
+        background-color: aliceblue;
+        font-size: 17px;
+        text-align: center;
+        color: #25265e;
+        height: 100vh;
+        width: 90vw;
+        margin: 2px auto;
+        padding: 20px;
+    }
+
+    /* books page responsive part */
+    .book-main-section {
+        width: 80vw;
+        padding: 30px;
+        margin: 5px auto;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+
+    }
+
+    .book-image {
+        height: 250px;
+        width: 200px;
+        border: 5px solid white;
+        outline: 3px solid black;
+    }
+
+    .book-container {
+        padding: 10px 10px;
+        display: inline-block;
+        font-size: 10px;
+        height: 250px;
+        width: 200px;
+    }
+
+    /* homepage responsive style */
+    .hed1 {
+        margin: 0;
+        padding: 30px 0 0 0;
+        color: darkslategray;
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 44px;
+        font-weight: 550;
+        text-shadow: 2px 2px 5px grey;
+    }
+
+    .home-page-section {
+
+        width: 80vw;
+        margin: 5px auto;
+        padding: 70px;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+        gap: 70px 50px;
+    }
+
+    /* notes page restonsive style */
+    .notes-main-section {
+        width: 90vw;
+        padding: 30px;
+        margin: 5px auto;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 70px;
+    }
+
+    .notes-container {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 10px 10px;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 15px 50px 15px 50px;
+        font-size: 15px;
+        height: 250px;
+        width: 200px;
+    }
+
+    /* video section responsive style  */
+    .video {
+        width: calc(100% - 20px);
+        margin: 10px 0;
+    }
+}

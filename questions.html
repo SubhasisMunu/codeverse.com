@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-library | questions section</title>
+  <link rel="shotcut icon" href="icons8-book.gif" />
+  <link rel="stylesheet" href="all-style.css" />
+  <link rel="stylesheet" href="questions-style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <h1>sample questions</h1>
+    <nav class="navigation-bar">
+      <a href="" style="color: aliceblue;"><i class="fa fa-fw fa-user"></i></a>
+      <a class="under" href="logout.php">logout</a>
+      <a style="color: aliceblue;">|</a>
+      <a class="under" href="help.html">Help</a>
+    </nav>
+    <nav id="nav-menu">
+      <h1>CodeVerse</h1>
+      <div id="menu-icon">&#9776;</div>
+      <ul>
+        <li><a href="home page.html">Home</a></li>
+        <li><a href="books.html">Ebooks</a></li>
+        <li><a href="notes.html">Notes</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="questions.html" class="activee">Questions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <script>
+      document.getElementById('menu-icon').addEventListener('click', function () {
+        document.querySelector('ul').classList.toggle('show');
+      });
+    </script>
+  </header>
+  <section>
+    <h1 id="hh">questions</h1>
+  </section>
+  <!-- <hr /> -->
+  <footer>
+    <p>&copy; 2023 CodeVerse E-library</p>
+    <p>Contact: codeverse9040@gmail.com</p>
+  </footer>
+</body>
+
+</html>
