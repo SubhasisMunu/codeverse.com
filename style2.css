@@ -30,7 +30,7 @@ body {
   padding-top: 40px;
   font-size: 40px;
   font-weight: 600;
-  width: 90vw;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -41,16 +41,17 @@ h2 {
 
 .main1 {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background-image: url("landing\ page\ background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #div1 {
+  background-color: #1e1e3f;
   height: 60vh;
   width: 90vw;
-  margin: 50px auto;
+  margin: 40px auto;
 }
 
 .main1 a {
@@ -131,4 +132,13 @@ footer {
   padding: 20px 0;
   position: relative;
   bottom: 0px;
+}
+@media only screen and (max-width: 560px) {
+  body {
+      /* box-sizing: border-box; */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
 }
