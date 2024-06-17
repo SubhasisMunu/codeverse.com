@@ -1,5 +1,5 @@
 body {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -9,12 +9,14 @@ body {
 .navigation-bar {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
   height: 10vh;
   background-color: #1e1e3f;
   color: aliceblue;
 }
+
 
 .under {
   text-decoration: none;
@@ -126,7 +128,7 @@ footer {
   width: 100%;
   color: rgb(150 161 192);
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
   position: relative;
   bottom: 0px;
 }

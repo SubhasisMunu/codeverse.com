@@ -111,18 +111,18 @@ h1 {
 .book-image {
     border: 5px solid white;
     outline: 3px solid black;
+    height: 225px;
+    width: 175px;
+    transition: all 0.5s ease 1ms;
 }
 
 .book-container {
-    padding: 10px 10px;
-    display: inline-block;
-    font-size: 10px;
-    height: 220px;
-    width: 170px;
+    /* nothing */
 }
 
 .book-image:hover {
-    border: 1px solid white;
+    /* border: 1px solid white; */
+    transform: scale(1.05, 1.05);
 }
 
 /* contact page styles starts from here */
@@ -220,15 +220,18 @@ h1 {
 .topic {
     height: 250px;
     width: 245px;
-    background-color: #6501e5;
-    background-color: #444;
-    color: #111;
     display: inline-block;
     text-align: center;
 }
 
+.topic:hover {
+    color: #444;
+    text-decoration: underline;
+}
+
 .homepage-image-nav {
     border: 1px solid black;
+    transition: all 0.5s ease-in-out 1ms;
 }
 
 .home-page-section {
@@ -258,14 +261,10 @@ h1 {
 
 .homepage-image-nav:hover {
     border: 2px solid blueviolet;
-    height: 250px;
-    width: 245px;
+    transform: scale(1.05, 1.05);
 }
 
-.topic:hover {
-    color: #444;
-    text-decoration: underline;
-}
+
 
 /* notes page style starts from here */
 .notes-main-section {
