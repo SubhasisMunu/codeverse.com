@@ -7,7 +7,6 @@ body {
 }
 
 .navigation-bar {
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -41,7 +40,6 @@ h2 {
 
 .main1 {
   height: 100vh;
-  width: 100vw;
   background-image: url("landing\ page\ background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -75,7 +73,6 @@ h2 {
   background-image: url("9241.jpg");
   background-size: cover;
   height: 100vh;
-  width: 100%;
 }
 
 #description {
@@ -105,7 +102,6 @@ h2 {
   background-image: url("IMG_20240107_030629.jpg");
   background-size: cover;
   height: 100vh;
-  width: 100%;
 }
 
 #div2 {
@@ -125,7 +121,7 @@ h2 {
 footer {
   margin: 0;
   background-color: #1e1e3f;
-  width: 100%;
+ 
   color: rgb(150 161 192);
   text-align: center;
   padding: 20px 0;
