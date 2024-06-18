@@ -492,20 +492,19 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        /* gap: 30px; */
     }
 
     .book-container {
-        height: 150px;
-        width: 135px;
-        background-color: aqua;
+        height: 200px;
+        width: 160px;
     }
 
     .book-image {
         border: 5px solid white;
         outline: 3px solid black;
-        height: 150px;
-        width: 135px;
+        height: 200px;
+        width: 160px;
         transition: all 0.5s ease 1ms;
     }
 
