@@ -104,7 +104,7 @@
 .container-2 {
   height: 500px;
   width: 100vw;
-  padding: 10px;
+  padding: 0 20px;
   background-color: rgba(240, 248, 255, 0.5);
   display: flex;
   flex-direction: column;
@@ -172,21 +172,21 @@
   }
 
   .para {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     color: darkorange;
   }
 
   .main_para {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     color: #2a2a6f;
     text-align: center;
   }
 
   .sub_para {
-    font-size: 14px;
+    font-size: 16px;
     color: #1e1e3f;
     text-align: center;
   }
