@@ -138,30 +138,90 @@ h1 {
     width: 90vw;
     height: 100vh;
     background-color: aliceblue;
-    padding: 20px;
     margin: 2px auto;
+
 }
 
-.contact-details {
+#head-11 {
     text-align: center;
-    font-size: 18px;
+    text-transform: capitalize;
 }
 
-.contact-media {
-    height: 150px;
-    text-align: center;
-    font-size: 18px;
+.contact-div {
+    width: 80vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.935);
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.contact-image {
+.contact-spans {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+input {
+    height: 50px;
+    width: 330px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(4, 0, 255, 0.1);
+    padding: 10px;
+}
+
+input:hover {
+    box-shadow: 0 0 10px rgba(4, 0, 255, 0.397);
+}
+
+#message {
+    height: 100px;
+}
+#btnn {
+    /* margin-top: 20px; */
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0866ff;
+    color: aliceblue;
+    text-decoration: none;
+    border: none;
+}
+
+#btnn:hover {
+    border: 1px solid #0866ff;
+    color: #0866ff;
+    background-color: aliceblue;
+}
+.sub-card-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px 10px;
+    margin: 10px auto;
+}
+
+.social-links {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
     height: 25px;
     width: 25px;
-    padding: 3px;
+    background-color: rgb(182, 225, 252);
 }
-
-.contact-image:hover {
-    border-radius: 100%;
-    background-color: rgb(150 161 192);
+.social-icon {
+    /* mix-blend-mode: multiply; */
+    height: 25px;
+    width: 25px;
 }
 
 /* home page style starts from here */
@@ -277,30 +337,35 @@ h1 {
 /* notes page style starts from here */
 .notes-main-section {
     width: 90vw;
-    padding: 30px;
-    margin: 5px auto;
     background-color: aliceblue;
+    padding: 50px 0 50px 0;
+    margin: 5px auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    align-content: center;
-    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 .notes-container {
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 10px 10px;
-    display: inline-block;
     border: 1px solid black;
     border-radius: 15px 50px 15px 50px;
     font-size: 15px;
     height: 250px;
     width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    transition: all 0.5s ease 1ms;
 }
 
 .notes-image {
-    padding: 0px 0px 0px 50px;
+    height: 60px;
+    width: 60px;
 }
 
 .notes-anchor {
@@ -312,7 +377,7 @@ h1 {
 }
 
 .notes-name {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     font-family: sans-serif;
     text-align: center;
@@ -320,24 +385,28 @@ h1 {
 }
 
 .download-buttons {
-    display: block;
+    display: inline-block;
     margin-top: 10px;
-    border-radius: 20px;
-    padding: 8px 1px;
+    padding: 5px 5px;
+    width: 120px;
+    border-radius: 10px;
     background-color: #8932d5;
     font-size: 14px;
     color: #fafafa;
     font-family: sans-serif;
+    transition: all 0.5s ease 1ms;
 }
 
 .download-buttons:hover {
     background-color: #5900a8;
-    font-weight: 600;
+    font-weight: 100;
+    transform: scale(1.05, 1.05);
 }
 
 .notes-container:hover {
     border: 1px solid #5900a8;
-    background-color: azure;
+    background-color: lightcyan;
+    transform: scale(1.05, 1.05);
 }
 
 /* video page style starts from here*/
@@ -486,7 +555,7 @@ footer {
     /* books page responsive part */
     .book-main-section {
         width: 100vw;
-        padding: 50px 0 0 0;
+        padding: 50px 0 50px 0;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -522,7 +591,7 @@ footer {
 
     .home-page-section {
 
-        width: 80vw;
+        width: 100vw;
         margin: 5px auto;
         padding: 70px;
         background-color: aliceblue;
@@ -536,28 +605,82 @@ footer {
 
     /* notes page restonsive style */
     .notes-main-section {
-        width: 90vw;
-        padding: 30px;
-        margin: 5px auto;
-        background-color: aliceblue;
+        width: 100vw;
+        padding: 50px 0 50px 0;
         display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        flex-direction: row;
         flex-wrap: wrap;
-        align-content: center;
-        gap: 70px;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
     }
 
     .notes-container {
         background-color: rgba(255, 255, 255, 0.5);
-        padding: 10px 10px;
-        display: inline-block;
         border: 1px solid black;
         border-radius: 15px 50px 15px 50px;
         font-size: 15px;
-        height: 250px;
-        width: 200px;
+        height: 200px;
+        width: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 10px;
+        transition: all 0.5s ease 1ms;
     }
+
+    .notes-image {
+        height: 60px;
+        width: 60px;
+    }
+
+    .notes-anchor {
+        color: #25265e;
+        text-transform: capitalize;
+        text-align: center;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+
+    .notes-name {
+        font-size: 11px;
+        font-weight: 600;
+        font-family: sans-serif;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .download-buttons {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 5px 5px;
+        width: 120px;
+        border-radius: 10px;
+        background-color: #8932d5;
+        font-size: 14px;
+        color: #fafafa;
+        font-family: sans-serif;
+    }
+ /* contact section responsive style  */
+   .contact-div {
+       width: 80vw;
+       margin: 0 auto;
+       border-radius: 10px;
+       background-color: rgba(240, 248, 255, 0.935);
+       height: 50vh;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       align-items: center;
+   }
+   .contact-section {
+       width: 100vw;
+       height: 100vh;
+       background-color: aliceblue;
+       margin: 2px auto;
+
+   }
 
     /* video section responsive style  */
     .video {
