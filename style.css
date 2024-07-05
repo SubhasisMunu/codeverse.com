@@ -154,6 +154,16 @@
   font-weight: bolder;
 }
 
+footer {
+  height: 100px;
+  background-color: #1e1e3f;
+  color: rgb(150 161 192);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0px;
+}
+
 @media only screen and (max-width: 560px) {
   .heading-1 {
     font-size: 32px;
